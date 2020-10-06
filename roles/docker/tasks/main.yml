@@ -1,6 +1,6 @@
 ---
 - name: Copy Docker engine service file
-  shell: sh install
+  shell: sh install_docker.sh
 
 - name: Enable and restart Docker engine
   systemd:
